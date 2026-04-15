@@ -1,3 +1,5 @@
+import Header from "./Header";
+
 export default function ContactSection() {
   return (
     <section
@@ -8,6 +10,7 @@ export default function ContactSection() {
         backgroundPosition: "center",
       }}
     >
+      <Header/>
 
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60"></div>

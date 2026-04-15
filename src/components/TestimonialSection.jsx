@@ -1,7 +1,9 @@
+import Header from "./Header";
+
 export default function TestimonialSection() {
   return (
     <section className="py-24 bg-black text-white">
-
+      <Header/>
       {/* Title */}
       <h2 className="text-center text-4xl font-bold mb-16 tracking-wide">
         What Our Customers Say

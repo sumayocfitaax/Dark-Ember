@@ -1,7 +1,9 @@
+import Header from "./Header";
+
 export default function AboutSection() {
   return (
     <section className="py-24 bg-black text-white">
-
+      <Header/>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
 
         {/* IMAGE SIDE */}

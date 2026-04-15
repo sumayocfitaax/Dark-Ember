@@ -1,20 +1,13 @@
-import AboutSection from './components/AboutSection'
-import ContactSection from './components/ContactSection'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import ShopSection from './components/ShopSection'
-import TestimonialSection from './components/TestimonialSection'
+
+import { Outlet } from "react-router-dom";
+import Header from "./components/Header";
 
 function App(){
   return(
-    <>
-    <Header/>
-    <ShopSection/>
-    <AboutSection/>
-    <TestimonialSection/>
-    <ContactSection/>
-    <Footer/>
-    </>
+    <div className="min-h-screen bg-black text-white">
+      <Header/>
+      <Outlet/>
+    </div>
   )
 }
 export default App

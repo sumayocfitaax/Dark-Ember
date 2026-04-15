@@ -1,5 +1,8 @@
+import Header from "./Header";
 export default function ShopSection() {
   return (
+      <div>
+        <Header/>
     <section className="py-20 bg-black text-white">
 
       {/* Title */}
@@ -68,5 +71,6 @@ export default function ShopSection() {
 
       </div>
     </section>
+      </div>
   );
 }
